@@ -2,21 +2,34 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Busca Github</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Busca de Repositórios do Github</title>
 </head>
 
 <body>
-    <div id="busca">
-        <input type="text" name="user">
-        <button onclick="buscaGit()">Adicionar</button>
-    </div>
+  <div class="container">
+    <header id="busca">
+      <img src="./img/github.svg" alt="Github">
+      <h1>Busca de Repositórios do Github</h1>
+      <div class="username-input">
+        <input type="text" name="user" placeholder="Insira o usuário aqui">
+        <button onclick="buscaGit()">Buscar</button>
+      </div>
+    </header>
+
     <div id="repos">
-        <ul></ul>
+      <ul></ul>
     </div>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="js/main.js"></script>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

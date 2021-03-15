@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  background: #e6e6e6;
+}
+
+body, button, input {
+  font-family: Montserrat, sans-serif;
+}
+
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  min-height: calc(100vh - 20px);
+
+  margin: 10px;
+  padding: 50px 20px 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #fff;
+  border-radius: 10px;
+}
+
+#busca {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#busca img {
+  width: 150px;
+}
+
+#busca h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.username-input {
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+
+  margin: 20px 0 0;
+}
+
+.username-input input {
+  width: 100%;
+  height: 40px;
+
+  padding: 10px;
+  
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+  margin-right: 10px;
+
+  font-size: 16px;
+}
+
+.username-input button {
+  width: 150px;
+  height: 40px;
+
+  
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+
+  background: #3d3d3d;
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#repos {
+  width: 100%;
+
+  margin-top: 20px;
+}
+
+#repos ul li {
+  height: 100%;
+  min-height: 60px;
+
+  padding: 10px 60px 10px 10px;
+  margin: 10px 0;
+
+  position: relative;
+
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+  
+  list-style: none;
+  font-weight: 600;
+
+  word-wrap: break-word;
+}
+
+#repos ul li a {
+  width: 50px;
+  height: 40px;
+
+  padding: 10px;
+
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  background: #3d3d3d;
+
+  transition: background-color 0.3s;
+}
+
+#repos ul li a:hover,
+.username-input button:hover {
+  background: none;
+  color: #3d3d3d;
+  border: 1px solid #3d3d3d;
+}
+
+@media (max-width: 700px){
+  #busca h1 {
+    font-size: 30px;
+  }
+
+  #busca img {
+    width: 100px;
+  }
+}
