@@ -1,13 +1,17 @@
-# busca-github-api
+# Aplicação para busca de repositórios através da API do Github
 Busca de repositórios pelo nome de usuário consumindo a API do Github | Exercício JS Rocketseat
+
+Teste [aqui](https://busca-github-api.netlify.app/)! :octocat:
 
 
 <img src="https://i.imgur.com/DdFvgv0.gif" alt="demonstração da aplicação" />
 
 ------------
 
-Exercícios 2 e 3 propostos no [Curso de Javascript da Rocketseat](https://rocketseat.com.br/starter/curso-gratuito-javascript "Curso de Javascript da Rocketseat"), **módulo 4**.
-*Obs: foram inseridos os links para os repositórios.*
+Exercícios 2 e 3 propostos no Curso de Javascript da [Rocketseat](https://rocketseat.com.br/), **módulo 4**.
+
+------------
+## Enunciado
 
 #### 2º exercício
 Crie uma tela com um `<input> ` que deve receber o nome de um usuário no Github. Após digitar o nome do usuário e clicar no botão buscar a aplicação deve buscar pela API do Github (conforme URL abaixo) os dados de repositórios do usuário e mostrá-los em tela:
