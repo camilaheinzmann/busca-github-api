@@ -1,6 +1,9 @@
 # busca-github-api
 Busca de repositórios pelo nome de usuário consumindo a API do Github | Exercício JS Rocketseat
 
+
+<img src="https://i.imgur.com/DdFvgv0.gif" alt="demonstração da aplicação" />
+
 ------------
 
 Exercícios 2 e 3 propostos no [Curso de Javascript da Rocketseat](https://rocketseat.com.br/starter/curso-gratuito-javascript "Curso de Javascript da Rocketseat"), **módulo 4**.
